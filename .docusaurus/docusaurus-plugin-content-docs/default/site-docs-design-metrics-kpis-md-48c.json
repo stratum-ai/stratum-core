@@ -1,0 +1,20 @@
+{
+  "id": "design/metrics-kpis",
+  "title": "Metrics & KPIs",
+  "description": "Product Quality",
+  "source": "@site/docs/design/metrics-kpis.md",
+  "sourceDirName": "design",
+  "slug": "/design/metrics-kpis",
+  "permalink": "/stratum-core/docs/design/metrics-kpis",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/design/metrics-kpis.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "UX Notes — Playground & Admin (MVP)",
+    "permalink": "/stratum-core/docs/design/ux-notes"
+  }
+}

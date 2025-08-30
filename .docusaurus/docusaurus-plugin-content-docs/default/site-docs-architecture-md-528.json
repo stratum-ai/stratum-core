@@ -1,0 +1,24 @@
+{
+  "id": "architecture",
+  "title": "Architecture (MVP)",
+  "description": "Components",
+  "source": "@site/docs/architecture.md",
+  "sourceDirName": ".",
+  "slug": "/architecture",
+  "permalink": "/stratum-core/docs/architecture",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/architecture.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "MVP Scope (60–90 days)",
+    "permalink": "/stratum-core/docs/mvp-scope"
+  },
+  "next": {
+    "title": "API (MVP)",
+    "permalink": "/stratum-core/docs/api"
+  }
+}

@@ -1,0 +1,112 @@
+openapi: 3.0.3
+info:
+  title: Stratum Core API
+  version: 0.1.0
+servers:
+  - url: /api/v1
+paths:
+  /describe/{table}:
+    get:
+      summary: Describe table schema, profile, and NL description
+      parameters:
+        - name: table
+          in: path
+          required: true
+          schema: { type: string }
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DescribeResponse'
+  /find:
+    get:
+      summary: Find relevant tables/columns by query
+      parameters:
+        - name: q
+          in: query
+          required: true
+          schema: { type: string }
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FindResponse'
+  /ask:
+    post:
+      summary: Natural language to verified SQL + execution
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AskRequest'
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AskResponse'
+components:
+  schemas:
+    DescribeResponse:
+      type: object
+      properties:
+        table: { type: string }
+        columns:
+          type: array
+          items:
+            type: object
+            properties:
+              name: { type: string }
+              type: { type: string }
+              description: { type: string }
+        profile:
+          type: object
+          additionalProperties: true
+        sample_rows:
+          type: array
+          items: { type: object, additionalProperties: true }
+        nl_description: { type: string }
+    FindResponse:
+      type: object
+      properties:
+        query: { type: string }
+        matches:
+          type: array
+          items:
+            type: object
+            properties:
+              kind: { type: string, enum: [table, column] }
+              table: { type: string }
+              name: { type: string }
+              score: { type: number }
+    AskRequest:
+      type: object
+      properties:
+        query: { type: string }
+        max_rows: { type: integer, default: 100 }
+    AskResponse:
+      type: object
+      properties:
+        sql: { type: string }
+        verified: { type: boolean }
+        engine: { type: string }
+        rows:
+          type: array
+          items: { type: object, additionalProperties: true }
+        stats:
+          type: object
+          properties:
+            duration_ms: { type: integer }
+            row_count: { type: integer }
+        provenance:
+          type: object
+          properties:
+            tables:
+              type: array
+              items: { type: string }

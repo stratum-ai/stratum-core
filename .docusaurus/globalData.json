@@ -1,0 +1,78 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/stratum-core/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/stratum-core/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "api",
+              "path": "/stratum-core/docs/api",
+              "sidebar": "docs"
+            },
+            {
+              "id": "architecture",
+              "path": "/stratum-core/docs/architecture",
+              "sidebar": "docs"
+            },
+            {
+              "id": "design/metrics-kpis",
+              "path": "/stratum-core/docs/design/metrics-kpis",
+              "sidebar": "docs"
+            },
+            {
+              "id": "design/product-prd",
+              "path": "/stratum-core/docs/design/product-prd",
+              "sidebar": "docs"
+            },
+            {
+              "id": "design/ux-notes",
+              "path": "/stratum-core/docs/design/ux-notes",
+              "sidebar": "docs"
+            },
+            {
+              "id": "glossary",
+              "path": "/stratum-core/docs/glossary",
+              "sidebar": "docs"
+            },
+            {
+              "id": "intro",
+              "path": "/stratum-core/docs/intro",
+              "sidebar": "docs"
+            },
+            {
+              "id": "mvp-scope",
+              "path": "/stratum-core/docs/mvp-scope",
+              "sidebar": "docs"
+            },
+            {
+              "id": "roadmap",
+              "path": "/stratum-core/docs/roadmap",
+              "sidebar": "docs"
+            },
+            {
+              "id": "vision",
+              "path": "/stratum-core/docs/vision",
+              "sidebar": "docs"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "docs": {
+              "link": {
+                "path": "/stratum-core/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

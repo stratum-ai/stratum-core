@@ -1,0 +1,24 @@
+{
+  "id": "design/product-prd",
+  "title": "PRD — Stratum Core MVP",
+  "description": "Problem",
+  "source": "@site/docs/design/product-prd.md",
+  "sourceDirName": "design",
+  "slug": "/design/product-prd",
+  "permalink": "/stratum-core/docs/design/product-prd",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/design/product-prd.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Glossary",
+    "permalink": "/stratum-core/docs/glossary"
+  },
+  "next": {
+    "title": "UX Notes — Playground & Admin (MVP)",
+    "permalink": "/stratum-core/docs/design/ux-notes"
+  }
+}
