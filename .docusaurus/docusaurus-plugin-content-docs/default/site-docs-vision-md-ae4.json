@@ -14,11 +14,11 @@
   "frontMatter": {},
   "sidebar": "docs",
   "previous": {
-    "title": "Stratum Core (Open Source)",
-    "permalink": "/stratum-core/docs/intro"
+    "title": "Mission",
+    "permalink": "/stratum-core/docs/mission-statement"
   },
   "next": {
-    "title": "MVP Scope (60–90 days)",
-    "permalink": "/stratum-core/docs/mvp-scope"
+    "title": "Glossary",
+    "permalink": "/stratum-core/docs/glossary"
   }
 }

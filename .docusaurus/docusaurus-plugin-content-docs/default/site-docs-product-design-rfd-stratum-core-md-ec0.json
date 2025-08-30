@@ -1,0 +1,24 @@
+{
+  "id": "product-design/rfd-stratum-core",
+  "title": "RFD: Stratum Core — Agentic Semantic Execution Layer for Heterogeneous Data",
+  "description": "Author Architecture, Security, Product • Status: Draft",
+  "source": "@site/docs/product-design/rfd-stratum-core.md",
+  "sourceDirName": "product-design",
+  "slug": "/product-design/rfd-stratum-core",
+  "permalink": "/stratum-core/docs/product-design/rfd-stratum-core",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/product-design/rfd-stratum-core.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Roadmap",
+    "permalink": "/stratum-core/docs/roadmap"
+  },
+  "next": {
+    "title": "Market Viability & Product Strategy",
+    "permalink": "/stratum-core/docs/product-design/market-viability"
+  }
+}

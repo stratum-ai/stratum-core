@@ -22,7 +22,7 @@ paths:
                 $ref: '#/components/schemas/DescribeResponse'
   /find:
     get:
-      summary: Find relevant tables/columns by query
+      summary: Find relevant tables/columns/documents by query
       parameters:
         - name: q
           in: query
@@ -81,24 +81,55 @@ components:
           items:
             type: object
             properties:
-              kind: { type: string, enum: [table, column] }
-              table: { type: string }
-              name: { type: string }
+              kind: { type: string, enum: [table, column, document] }
+              catalog: { type: string, description: "For table/column results" }
+              table: { type: string, description: "For table/column results: schema.table" }
+              name: { type: string, description: "For column results: column name" }
+              doc_id: { type: string, description: "For document results: source URI or ID" }
+              snippet: { type: string, description: "For document results: short text preview" }
               score: { type: number }
     AskRequest:
       type: object
       properties:
         query: { type: string }
         max_rows: { type: integer, default: 100 }
+        catalogs:
+          type: array
+          items: { type: string }
+          description: "Optional: restrict SQL planning/execution to specific Trino catalogs"
+        explain_only: { type: boolean, default: false }
+        include_passages: { type: boolean, default: true }
+        top_k_passages: { type: integer, default: 3 }
     AskResponse:
       type: object
       properties:
         sql: { type: string }
         verified: { type: boolean }
         engine: { type: string }
+        metadata:
+          type: object
+          properties:
+            catalog: { type: string }
+            catalogs:
+              type: array
+              items: { type: string }
+            routed_reason: { type: string }
+            duration_ms: { type: integer }
+            bytes_scanned: { type: integer }
+            query_id: { type: string }
         rows:
           type: array
           items: { type: object, additionalProperties: true }
+        passages:
+          type: array
+          description: "Optional: passages from unstructured retrieval"
+          items:
+            type: object
+            properties:
+              doc_id: { type: string }
+              page: { type: integer }
+              snippet: { type: string }
+              score: { type: number }
         stats:
           type: object
           properties:
@@ -110,3 +141,19 @@ components:
             tables:
               type: array
               items: { type: string }
+            documents:
+              type: array
+              items: { type: string }
+        frames:
+          type: array
+          description: "Optional: multiple result frames when stitching across sources"
+          items:
+            type: object
+            properties:
+              name: { type: string }
+              rows:
+                type: array
+                items: { type: object, additionalProperties: true }
+              provenance:
+                type: object
+                additionalProperties: true

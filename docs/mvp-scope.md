@@ -4,11 +4,11 @@
 Agents/LLMs fail on enterprise data because they lack schema context and a reliable NL→SQL bridge.
 
 ## Goals
-- One backend (DuckDB or Postgres)
+- Trino execution plane with 2 catalogs (warehouse + relational)
 - APIs: `/describe`, `/find`, `/ask`
 - Vector retrieval (Qdrant) for schema/table/column search
-- ≥70% pass on golden NL→SQL set
-- Local deploy in \<30 minutes
+- ≥70% pass on curated NL→SQL set (Phase 3 target ≥90%)
+- Local deploy in \<30 minutes (Docker Compose)
 
 ## Non-Goals
 - Federated/semantic joins

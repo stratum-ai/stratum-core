@@ -1,0 +1,24 @@
+{
+  "id": "design/market-viability",
+  "title": "Market Viability & Product Strategy",
+  "description": "Positioning",
+  "source": "@site/docs/design/market-viability.md",
+  "sourceDirName": "design",
+  "slug": "/design/market-viability",
+  "permalink": "/stratum-core/docs/design/market-viability",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/design/market-viability.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "RFD: Stratum Core — Agentic Semantic Execution Layer for Heterogeneous Data",
+    "permalink": "/stratum-core/docs/design/rfd-stratum-core"
+  },
+  "next": {
+    "title": "PRD — Stratum Core MVP",
+    "permalink": "/stratum-core/docs/design/product-prd"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "id": "roadmap",
   "title": "Roadmap",
-  "description": "Phase 1 (MVP)",
+  "description": "🧱 Phase 1 — Core Surface (Weeks 1–4)",
   "source": "@site/docs/roadmap.md",
   "sourceDirName": ".",
   "slug": "/roadmap",
@@ -14,11 +14,11 @@
   "frontMatter": {},
   "sidebar": "docs",
   "previous": {
-    "title": "API (MVP)",
-    "permalink": "/stratum-core/docs/api"
-  },
-  "next": {
     "title": "Glossary",
     "permalink": "/stratum-core/docs/glossary"
+  },
+  "next": {
+    "title": "Security Overview",
+    "permalink": "/stratum-core/docs/security-overview"
   }
 }

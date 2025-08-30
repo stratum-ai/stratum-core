@@ -21,18 +21,88 @@
               "sidebar": "docs"
             },
             {
-              "id": "design/metrics-kpis",
-              "path": "/stratum-core/docs/design/metrics-kpis",
+              "id": "buyer-faq",
+              "path": "/stratum-core/docs/buyer-faq",
               "sidebar": "docs"
             },
             {
-              "id": "design/product-prd",
-              "path": "/stratum-core/docs/design/product-prd",
+              "id": "engineering/agents/overview",
+              "path": "/stratum-core/docs/engineering/agents/overview",
               "sidebar": "docs"
             },
             {
-              "id": "design/ux-notes",
-              "path": "/stratum-core/docs/design/ux-notes",
+              "id": "engineering/agents/sdk-cli",
+              "path": "/stratum-core/docs/engineering/agents/sdk-cli",
+              "sidebar": "docs"
+            },
+            {
+              "id": "engineering/agents/spec",
+              "path": "/stratum-core/docs/engineering/agents/spec",
+              "sidebar": "docs"
+            },
+            {
+              "id": "engineering/auth-oidc",
+              "path": "/stratum-core/docs/engineering/auth-oidc",
+              "sidebar": "docs"
+            },
+            {
+              "id": "engineering/local-dev-setup",
+              "path": "/stratum-core/docs/engineering/local-dev-setup",
+              "sidebar": "docs"
+            },
+            {
+              "id": "engineering/security-interfaces",
+              "path": "/stratum-core/docs/engineering/security-interfaces",
+              "sidebar": "docs"
+            },
+            {
+              "id": "engineering/security-strategy",
+              "path": "/stratum-core/docs/engineering/security-strategy",
+              "sidebar": "docs"
+            },
+            {
+              "id": "engineering/trino-catalogs",
+              "path": "/stratum-core/docs/engineering/trino-catalogs",
+              "sidebar": "docs"
+            },
+            {
+              "id": "engineering/unstructured-data",
+              "path": "/stratum-core/docs/engineering/unstructured-data",
+              "sidebar": "docs"
+            },
+            {
+              "id": "enterprise/agent-orchestration",
+              "path": "/stratum-core/docs/enterprise/agent-orchestration",
+              "sidebar": "docs"
+            },
+            {
+              "id": "enterprise/governance-capabilities",
+              "path": "/stratum-core/docs/enterprise/governance-capabilities",
+              "sidebar": "docs"
+            },
+            {
+              "id": "enterprise/overview",
+              "path": "/stratum-core/docs/enterprise/overview",
+              "sidebar": "docs"
+            },
+            {
+              "id": "enterprise/security-compliance",
+              "path": "/stratum-core/docs/enterprise/security-compliance",
+              "sidebar": "docs"
+            },
+            {
+              "id": "execution-policy",
+              "path": "/stratum-core/docs/execution-policy",
+              "sidebar": "docs"
+            },
+            {
+              "id": "faq",
+              "path": "/stratum-core/docs/faq",
+              "sidebar": "docs"
+            },
+            {
+              "id": "getting-started",
+              "path": "/stratum-core/docs/getting-started",
               "sidebar": "docs"
             },
             {
@@ -41,8 +111,23 @@
               "sidebar": "docs"
             },
             {
+              "id": "implementation-checklist",
+              "path": "/stratum-core/docs/implementation-checklist",
+              "sidebar": "docs"
+            },
+            {
+              "id": "implementation-plan",
+              "path": "/stratum-core/docs/implementation-plan",
+              "sidebar": "docs"
+            },
+            {
               "id": "intro",
               "path": "/stratum-core/docs/intro",
+              "sidebar": "docs"
+            },
+            {
+              "id": "mission-statement",
+              "path": "/stratum-core/docs/mission-statement",
               "sidebar": "docs"
             },
             {
@@ -53,6 +138,16 @@
             {
               "id": "roadmap",
               "path": "/stratum-core/docs/roadmap",
+              "sidebar": "docs"
+            },
+            {
+              "id": "security-overview",
+              "path": "/stratum-core/docs/security-overview",
+              "sidebar": "docs"
+            },
+            {
+              "id": "tech-stack",
+              "path": "/stratum-core/docs/tech-stack",
               "sidebar": "docs"
             },
             {

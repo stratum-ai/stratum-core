@@ -1,7 +1,7 @@
 {
   "id": "architecture",
-  "title": "Architecture (MVP)",
-  "description": "Components",
+  "title": "Architecture",
+  "description": "High-Level Design",
   "source": "@site/docs/architecture.md",
   "sourceDirName": ".",
   "slug": "/architecture",
@@ -14,11 +14,11 @@
   "frontMatter": {},
   "sidebar": "docs",
   "previous": {
-    "title": "MVP Scope (60–90 days)",
-    "permalink": "/stratum-core/docs/mvp-scope"
+    "title": "Technology Stack",
+    "permalink": "/stratum-core/docs/tech-stack"
   },
   "next": {
-    "title": "API (MVP)",
-    "permalink": "/stratum-core/docs/api"
+    "title": "Execution Policy",
+    "permalink": "/stratum-core/docs/execution-policy"
   }
 }

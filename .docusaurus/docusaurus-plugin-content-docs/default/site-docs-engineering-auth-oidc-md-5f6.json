@@ -1,0 +1,24 @@
+{
+  "id": "engineering/auth-oidc",
+  "title": "OIDC Authentication Setup",
+  "description": "Enable SSO for the Admin/API using OIDC (OpenID Connect).",
+  "source": "@site/docs/engineering/auth-oidc.md",
+  "sourceDirName": "engineering",
+  "slug": "/engineering/auth-oidc",
+  "permalink": "/stratum-core/docs/engineering/auth-oidc",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/engineering/auth-oidc.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Trino Catalog Configuration",
+    "permalink": "/stratum-core/docs/engineering/trino-catalogs"
+  },
+  "next": {
+    "title": "Security Strategy",
+    "permalink": "/stratum-core/docs/engineering/security-strategy"
+  }
+}

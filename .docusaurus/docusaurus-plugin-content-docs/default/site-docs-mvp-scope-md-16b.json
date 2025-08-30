@@ -14,11 +14,11 @@
   "frontMatter": {},
   "sidebar": "docs",
   "previous": {
-    "title": "Vision & Principles",
-    "permalink": "/stratum-core/docs/vision"
+    "title": "Enterprise Agent Orchestration (Visual Builder)",
+    "permalink": "/stratum-core/docs/enterprise/agent-orchestration"
   },
   "next": {
-    "title": "Architecture (MVP)",
-    "permalink": "/stratum-core/docs/architecture"
+    "title": "Implementation Plan",
+    "permalink": "/stratum-core/docs/implementation-plan"
   }
 }

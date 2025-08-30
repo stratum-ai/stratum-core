@@ -1,7 +1,7 @@
 {
   "id": "design/metrics-kpis",
   "title": "Metrics & KPIs",
-  "description": "Product Quality",
+  "description": "Product Quality Metrics",
   "source": "@site/docs/design/metrics-kpis.md",
   "sourceDirName": "design",
   "slug": "/design/metrics-kpis",
@@ -14,7 +14,7 @@
   "frontMatter": {},
   "sidebar": "docs",
   "previous": {
-    "title": "UX Notes — Playground & Admin (MVP)",
-    "permalink": "/stratum-core/docs/design/ux-notes"
+    "title": "API Documentation",
+    "permalink": "/stratum-core/docs/api"
   }
 }

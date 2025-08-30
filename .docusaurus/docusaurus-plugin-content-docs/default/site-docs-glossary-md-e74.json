@@ -14,11 +14,11 @@
   "frontMatter": {},
   "sidebar": "docs",
   "previous": {
-    "title": "Roadmap",
-    "permalink": "/stratum-core/docs/roadmap"
+    "title": "Vision & Principles",
+    "permalink": "/stratum-core/docs/vision"
   },
   "next": {
-    "title": "PRD — Stratum Core MVP",
-    "permalink": "/stratum-core/docs/design/product-prd"
+    "title": "Roadmap",
+    "permalink": "/stratum-core/docs/roadmap"
   }
 }

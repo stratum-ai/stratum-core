@@ -3,56 +3,21 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/stratum-core/__docusaurus/debug',
-    component: ComponentCreator('/stratum-core/__docusaurus/debug', 'a65'),
-    exact: true
-  },
-  {
-    path: '/stratum-core/__docusaurus/debug/config',
-    component: ComponentCreator('/stratum-core/__docusaurus/debug/config', '5aa'),
-    exact: true
-  },
-  {
-    path: '/stratum-core/__docusaurus/debug/content',
-    component: ComponentCreator('/stratum-core/__docusaurus/debug/content', 'acf'),
-    exact: true
-  },
-  {
-    path: '/stratum-core/__docusaurus/debug/globalData',
-    component: ComponentCreator('/stratum-core/__docusaurus/debug/globalData', '51e'),
-    exact: true
-  },
-  {
-    path: '/stratum-core/__docusaurus/debug/metadata',
-    component: ComponentCreator('/stratum-core/__docusaurus/debug/metadata', 'df9'),
-    exact: true
-  },
-  {
-    path: '/stratum-core/__docusaurus/debug/registry',
-    component: ComponentCreator('/stratum-core/__docusaurus/debug/registry', '7c0'),
-    exact: true
-  },
-  {
-    path: '/stratum-core/__docusaurus/debug/routes',
-    component: ComponentCreator('/stratum-core/__docusaurus/debug/routes', '90d'),
-    exact: true
-  },
-  {
     path: '/stratum-core/markdown-page',
     component: ComponentCreator('/stratum-core/markdown-page', 'c64'),
     exact: true
   },
   {
     path: '/stratum-core/docs',
-    component: ComponentCreator('/stratum-core/docs', '3d2'),
+    component: ComponentCreator('/stratum-core/docs', '1cf'),
     routes: [
       {
         path: '/stratum-core/docs',
-        component: ComponentCreator('/stratum-core/docs', 'ab6'),
+        component: ComponentCreator('/stratum-core/docs', '820'),
         routes: [
           {
             path: '/stratum-core/docs',
-            component: ComponentCreator('/stratum-core/docs', '782'),
+            component: ComponentCreator('/stratum-core/docs', '4bc'),
             routes: [
               {
                 path: '/stratum-core/docs/api',
@@ -67,20 +32,104 @@ export default [
                 sidebar: "docs"
               },
               {
-                path: '/stratum-core/docs/design/metrics-kpis',
-                component: ComponentCreator('/stratum-core/docs/design/metrics-kpis', '13b'),
+                path: '/stratum-core/docs/buyer-faq',
+                component: ComponentCreator('/stratum-core/docs/buyer-faq', 'adf'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/stratum-core/docs/design/product-prd',
-                component: ComponentCreator('/stratum-core/docs/design/product-prd', '947'),
+                path: '/stratum-core/docs/engineering/agents/overview',
+                component: ComponentCreator('/stratum-core/docs/engineering/agents/overview', '834'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/stratum-core/docs/design/ux-notes',
-                component: ComponentCreator('/stratum-core/docs/design/ux-notes', '8ca'),
+                path: '/stratum-core/docs/engineering/agents/sdk-cli',
+                component: ComponentCreator('/stratum-core/docs/engineering/agents/sdk-cli', '64e'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/stratum-core/docs/engineering/agents/spec',
+                component: ComponentCreator('/stratum-core/docs/engineering/agents/spec', '3dc'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/stratum-core/docs/engineering/auth-oidc',
+                component: ComponentCreator('/stratum-core/docs/engineering/auth-oidc', '2c6'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/stratum-core/docs/engineering/local-dev-setup',
+                component: ComponentCreator('/stratum-core/docs/engineering/local-dev-setup', 'd6d'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/stratum-core/docs/engineering/security-interfaces',
+                component: ComponentCreator('/stratum-core/docs/engineering/security-interfaces', '6ee'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/stratum-core/docs/engineering/security-strategy',
+                component: ComponentCreator('/stratum-core/docs/engineering/security-strategy', 'dcf'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/stratum-core/docs/engineering/trino-catalogs',
+                component: ComponentCreator('/stratum-core/docs/engineering/trino-catalogs', 'f36'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/stratum-core/docs/engineering/unstructured-data',
+                component: ComponentCreator('/stratum-core/docs/engineering/unstructured-data', '027'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/stratum-core/docs/enterprise/agent-orchestration',
+                component: ComponentCreator('/stratum-core/docs/enterprise/agent-orchestration', '5fe'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/stratum-core/docs/enterprise/governance-capabilities',
+                component: ComponentCreator('/stratum-core/docs/enterprise/governance-capabilities', 'c6e'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/stratum-core/docs/enterprise/overview',
+                component: ComponentCreator('/stratum-core/docs/enterprise/overview', '707'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/stratum-core/docs/enterprise/security-compliance',
+                component: ComponentCreator('/stratum-core/docs/enterprise/security-compliance', '35d'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/stratum-core/docs/execution-policy',
+                component: ComponentCreator('/stratum-core/docs/execution-policy', '0f6'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/stratum-core/docs/faq',
+                component: ComponentCreator('/stratum-core/docs/faq', '314'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/stratum-core/docs/getting-started',
+                component: ComponentCreator('/stratum-core/docs/getting-started', '1a9'),
                 exact: true,
                 sidebar: "docs"
               },
@@ -91,8 +140,26 @@ export default [
                 sidebar: "docs"
               },
               {
+                path: '/stratum-core/docs/implementation-checklist',
+                component: ComponentCreator('/stratum-core/docs/implementation-checklist', '122'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/stratum-core/docs/implementation-plan',
+                component: ComponentCreator('/stratum-core/docs/implementation-plan', '097'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
                 path: '/stratum-core/docs/intro',
                 component: ComponentCreator('/stratum-core/docs/intro', '114'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/stratum-core/docs/mission-statement',
+                component: ComponentCreator('/stratum-core/docs/mission-statement', '607'),
                 exact: true,
                 sidebar: "docs"
               },
@@ -105,6 +172,18 @@ export default [
               {
                 path: '/stratum-core/docs/roadmap',
                 component: ComponentCreator('/stratum-core/docs/roadmap', '317'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/stratum-core/docs/security-overview',
+                component: ComponentCreator('/stratum-core/docs/security-overview', 'a51'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/stratum-core/docs/tech-stack',
+                component: ComponentCreator('/stratum-core/docs/tech-stack', 'ba9'),
                 exact: true,
                 sidebar: "docs"
               },

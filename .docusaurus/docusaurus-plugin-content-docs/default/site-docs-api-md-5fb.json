@@ -1,6 +1,6 @@
 {
   "id": "api",
-  "title": "API (MVP)",
+  "title": "API Documentation",
   "description": "Base URL: /api/v1",
   "source": "@site/docs/api.md",
   "sourceDirName": ".",
@@ -14,11 +14,7 @@
   "frontMatter": {},
   "sidebar": "docs",
   "previous": {
-    "title": "Architecture (MVP)",
-    "permalink": "/stratum-core/docs/architecture"
-  },
-  "next": {
-    "title": "Roadmap",
-    "permalink": "/stratum-core/docs/roadmap"
+    "title": "Execution Policy",
+    "permalink": "/stratum-core/docs/execution-policy"
   }
 }

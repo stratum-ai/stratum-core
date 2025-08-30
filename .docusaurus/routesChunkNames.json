@@ -1,112 +1,145 @@
 {
-  "/stratum-core/__docusaurus/debug-a65": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---stratum-core-docusaurus-debugb-38-6fd"
-    }
-  },
-  "/stratum-core/__docusaurus/debug/config-5aa": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---stratum-core-docusaurus-debugb-38-6fd"
-    }
-  },
-  "/stratum-core/__docusaurus/debug/content-acf": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---stratum-core-docusaurus-debugb-38-6fd"
-    },
-    "__props": "__props---stratum-core-docusaurus-debug-contentc-9-a-7b1"
-  },
-  "/stratum-core/__docusaurus/debug/globalData-51e": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---stratum-core-docusaurus-debugb-38-6fd"
-    }
-  },
-  "/stratum-core/__docusaurus/debug/metadata-df9": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---stratum-core-docusaurus-debugb-38-6fd"
-    }
-  },
-  "/stratum-core/__docusaurus/debug/registry-7c0": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---stratum-core-docusaurus-debugb-38-6fd"
-    }
-  },
-  "/stratum-core/__docusaurus/debug/routes-90d": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---stratum-core-docusaurus-debugb-38-6fd"
-    }
-  },
   "/stratum-core/markdown-page-c64": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---stratum-core-markdown-pagea-74-e2b"
+      "plugin": "a7456010"
     },
-    "content": "content---stratum-core-markdown-page-393-0f8"
+    "content": "393be207"
   },
-  "/stratum-core/docs-3d2": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+  "/stratum-core/docs-1cf": {
+    "__comp": "5e95c892",
     "__context": {
-      "plugin": "plugin---stratum-core-docsaba-d9d"
+      "plugin": "aba21aa0"
     }
   },
-  "/stratum-core/docs-ab6": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---stratum-core-docs-0-f-9-cca"
+  "/stratum-core/docs-820": {
+    "__comp": "a7bd4aaa",
+    "__props": "0f9d05e8"
   },
-  "/stratum-core/docs-782": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
+  "/stratum-core/docs-4bc": {
+    "__comp": "a94703ab"
   },
   "/stratum-core/docs/api-74b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---stratum-core-docs-api-5-fb-b0d"
+    "__comp": "17896441",
+    "content": "5fbc5cf1"
   },
   "/stratum-core/docs/architecture-75a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---stratum-core-docs-architecture-528-9a2"
+    "__comp": "17896441",
+    "content": "5281b7a2"
   },
-  "/stratum-core/docs/design/metrics-kpis-13b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---stratum-core-docs-design-metrics-kpis-48-c-31b"
+  "/stratum-core/docs/buyer-faq-adf": {
+    "__comp": "17896441",
+    "content": "c8c24750"
   },
-  "/stratum-core/docs/design/product-prd-947": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---stratum-core-docs-design-product-prdbb-7-09b"
+  "/stratum-core/docs/engineering/agents/overview-834": {
+    "__comp": "17896441",
+    "content": "fb7a2f30"
   },
-  "/stratum-core/docs/design/ux-notes-8ca": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---stratum-core-docs-design-ux-notescdd-1e1"
+  "/stratum-core/docs/engineering/agents/sdk-cli-64e": {
+    "__comp": "17896441",
+    "content": "31eefdee"
+  },
+  "/stratum-core/docs/engineering/agents/spec-3dc": {
+    "__comp": "17896441",
+    "content": "c68077b2"
+  },
+  "/stratum-core/docs/engineering/auth-oidc-2c6": {
+    "__comp": "17896441",
+    "content": "5f606f05"
+  },
+  "/stratum-core/docs/engineering/local-dev-setup-d6d": {
+    "__comp": "17896441",
+    "content": "26e2db14"
+  },
+  "/stratum-core/docs/engineering/security-interfaces-6ee": {
+    "__comp": "17896441",
+    "content": "6bce2a64"
+  },
+  "/stratum-core/docs/engineering/security-strategy-dcf": {
+    "__comp": "17896441",
+    "content": "c5be5d3b"
+  },
+  "/stratum-core/docs/engineering/trino-catalogs-f36": {
+    "__comp": "17896441",
+    "content": "198e1a52"
+  },
+  "/stratum-core/docs/engineering/unstructured-data-027": {
+    "__comp": "17896441",
+    "content": "927a59a9"
+  },
+  "/stratum-core/docs/enterprise/agent-orchestration-5fe": {
+    "__comp": "17896441",
+    "content": "b27d6073"
+  },
+  "/stratum-core/docs/enterprise/governance-capabilities-c6e": {
+    "__comp": "17896441",
+    "content": "a81d5f42"
+  },
+  "/stratum-core/docs/enterprise/overview-707": {
+    "__comp": "17896441",
+    "content": "c95bf0ad"
+  },
+  "/stratum-core/docs/enterprise/security-compliance-35d": {
+    "__comp": "17896441",
+    "content": "e4d0392e"
+  },
+  "/stratum-core/docs/execution-policy-0f6": {
+    "__comp": "17896441",
+    "content": "32b5892e"
+  },
+  "/stratum-core/docs/faq-314": {
+    "__comp": "17896441",
+    "content": "0480b142"
+  },
+  "/stratum-core/docs/getting-started-1a9": {
+    "__comp": "17896441",
+    "content": "d589d3a7"
   },
   "/stratum-core/docs/glossary-e54": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---stratum-core-docs-glossarye-74-fb2"
+    "__comp": "17896441",
+    "content": "e747ec83"
+  },
+  "/stratum-core/docs/implementation-checklist-122": {
+    "__comp": "17896441",
+    "content": "17e7c444"
+  },
+  "/stratum-core/docs/implementation-plan-097": {
+    "__comp": "17896441",
+    "content": "c6ea5627"
   },
   "/stratum-core/docs/intro-114": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---stratum-core-docs-intro-0-e-3-052"
+    "__comp": "17896441",
+    "content": "0e384e19"
+  },
+  "/stratum-core/docs/mission-statement-607": {
+    "__comp": "17896441",
+    "content": "d7f046c5"
   },
   "/stratum-core/docs/mvp-scope-7f3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---stratum-core-docs-mvp-scope-16-b-d96"
+    "__comp": "17896441",
+    "content": "16b47997"
   },
   "/stratum-core/docs/roadmap-317": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---stratum-core-docs-roadmap-0-df-27e"
+    "__comp": "17896441",
+    "content": "0dffb83e"
+  },
+  "/stratum-core/docs/security-overview-a51": {
+    "__comp": "17896441",
+    "content": "a910b73e"
+  },
+  "/stratum-core/docs/tech-stack-ba9": {
+    "__comp": "17896441",
+    "content": "40cca3aa"
   },
   "/stratum-core/docs/vision-cb1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---stratum-core-docs-visionae-4-05d"
+    "__comp": "17896441",
+    "content": "ae4554eb"
   },
   "/stratum-core/-68b": {
-    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__comp": "c4f5d8e4",
     "__context": {
-      "plugin": "plugin---stratum-core-markdown-pagea-74-e2b"
+      "plugin": "a7456010"
     },
-    "config": "config---stratum-core-5-e-9-7e7"
+    "config": "5e9f5e1a"
   }
 }
