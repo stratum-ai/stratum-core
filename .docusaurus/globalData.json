@@ -8,23 +8,8 @@
           "label": "Next",
           "isLast": true,
           "path": "/stratum-core/docs",
-          "mainDocId": "intro",
+          "mainDocId": "product/intro",
           "docs": [
-            {
-              "id": "api",
-              "path": "/stratum-core/docs/api",
-              "sidebar": "docs"
-            },
-            {
-              "id": "architecture",
-              "path": "/stratum-core/docs/architecture",
-              "sidebar": "docs"
-            },
-            {
-              "id": "buyer-faq",
-              "path": "/stratum-core/docs/buyer-faq",
-              "sidebar": "docs"
-            },
             {
               "id": "engineering/agents/overview",
               "path": "/stratum-core/docs/engineering/agents/overview",
@@ -43,6 +28,21 @@
             {
               "id": "engineering/auth-oidc",
               "path": "/stratum-core/docs/engineering/auth-oidc",
+              "sidebar": "docs"
+            },
+            {
+              "id": "engineering/guides/implementation-checklist",
+              "path": "/stratum-core/docs/engineering/guides/implementation-checklist",
+              "sidebar": "docs"
+            },
+            {
+              "id": "engineering/guides/implementation-plan",
+              "path": "/stratum-core/docs/engineering/guides/implementation-plan",
+              "sidebar": "docs"
+            },
+            {
+              "id": "engineering/guides/mvp-scope",
+              "path": "/stratum-core/docs/engineering/guides/mvp-scope",
               "sidebar": "docs"
             },
             {
@@ -91,68 +91,68 @@
               "sidebar": "docs"
             },
             {
-              "id": "execution-policy",
-              "path": "/stratum-core/docs/execution-policy",
+              "id": "product/buyer-faq",
+              "path": "/stratum-core/docs/product/buyer-faq",
               "sidebar": "docs"
             },
             {
-              "id": "faq",
-              "path": "/stratum-core/docs/faq",
+              "id": "product/faq",
+              "path": "/stratum-core/docs/product/faq",
               "sidebar": "docs"
             },
             {
-              "id": "getting-started",
-              "path": "/stratum-core/docs/getting-started",
+              "id": "product/getting-started",
+              "path": "/stratum-core/docs/product/getting-started",
               "sidebar": "docs"
             },
             {
-              "id": "glossary",
-              "path": "/stratum-core/docs/glossary",
+              "id": "product/glossary",
+              "path": "/stratum-core/docs/product/glossary",
               "sidebar": "docs"
             },
             {
-              "id": "implementation-checklist",
-              "path": "/stratum-core/docs/implementation-checklist",
+              "id": "product/intro",
+              "path": "/stratum-core/docs/product/intro",
               "sidebar": "docs"
             },
             {
-              "id": "implementation-plan",
-              "path": "/stratum-core/docs/implementation-plan",
+              "id": "product/mission-statement",
+              "path": "/stratum-core/docs/product/mission-statement",
               "sidebar": "docs"
             },
             {
-              "id": "intro",
-              "path": "/stratum-core/docs/intro",
+              "id": "product/roadmap",
+              "path": "/stratum-core/docs/product/roadmap",
               "sidebar": "docs"
             },
             {
-              "id": "mission-statement",
-              "path": "/stratum-core/docs/mission-statement",
+              "id": "product/security-overview",
+              "path": "/stratum-core/docs/product/security-overview",
               "sidebar": "docs"
             },
             {
-              "id": "mvp-scope",
-              "path": "/stratum-core/docs/mvp-scope",
+              "id": "product/vision",
+              "path": "/stratum-core/docs/product/vision",
               "sidebar": "docs"
             },
             {
-              "id": "roadmap",
-              "path": "/stratum-core/docs/roadmap",
+              "id": "reference/api",
+              "path": "/stratum-core/docs/reference/api",
               "sidebar": "docs"
             },
             {
-              "id": "security-overview",
-              "path": "/stratum-core/docs/security-overview",
+              "id": "reference/architecture",
+              "path": "/stratum-core/docs/reference/architecture",
               "sidebar": "docs"
             },
             {
-              "id": "tech-stack",
-              "path": "/stratum-core/docs/tech-stack",
+              "id": "reference/execution-policy",
+              "path": "/stratum-core/docs/reference/execution-policy",
               "sidebar": "docs"
             },
             {
-              "id": "vision",
-              "path": "/stratum-core/docs/vision",
+              "id": "reference/tech-stack",
+              "path": "/stratum-core/docs/reference/tech-stack",
               "sidebar": "docs"
             }
           ],
@@ -160,8 +160,8 @@
           "sidebars": {
             "docs": {
               "link": {
-                "path": "/stratum-core/docs/intro",
-                "label": "intro"
+                "path": "/stratum-core/docs/product/intro",
+                "label": "product/intro"
               }
             }
           }

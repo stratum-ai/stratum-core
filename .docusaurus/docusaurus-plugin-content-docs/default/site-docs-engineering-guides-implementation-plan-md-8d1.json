@@ -1,0 +1,24 @@
+{
+  "id": "engineering/guides/implementation-plan",
+  "title": "Implementation Plan",
+  "description": "Phase 1: MVP Foundation (Weeks 1-8)",
+  "source": "@site/docs/engineering/guides/implementation-plan.md",
+  "sourceDirName": "engineering/guides",
+  "slug": "/engineering/guides/implementation-plan",
+  "permalink": "/stratum-core/docs/engineering/guides/implementation-plan",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/engineering/guides/implementation-plan.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "MVP Scope (60–90 days)",
+    "permalink": "/stratum-core/docs/engineering/guides/mvp-scope"
+  },
+  "next": {
+    "title": "Implementation Checklist",
+    "permalink": "/stratum-core/docs/engineering/guides/implementation-checklist"
+  }
+}

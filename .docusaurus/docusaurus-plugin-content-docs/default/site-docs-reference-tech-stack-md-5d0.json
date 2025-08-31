@@ -1,0 +1,24 @@
+{
+  "id": "reference/tech-stack",
+  "title": "Technology Stack",
+  "description": "Core Architecture",
+  "source": "@site/docs/reference/tech-stack.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/tech-stack",
+  "permalink": "/stratum-core/docs/reference/tech-stack",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reference/tech-stack.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Unstructured Data Support",
+    "permalink": "/stratum-core/docs/engineering/unstructured-data"
+  },
+  "next": {
+    "title": "Architecture",
+    "permalink": "/stratum-core/docs/reference/architecture"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "product/mission-statement",
+  "title": "Mission",
+  "description": "North Star",
+  "source": "@site/docs/product/mission-statement.md",
+  "sourceDirName": "product",
+  "slug": "/product/mission-statement",
+  "permalink": "/stratum-core/docs/product/mission-statement",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/product/mission-statement.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Getting Started with Stratum Core",
+    "permalink": "/stratum-core/docs/product/getting-started"
+  },
+  "next": {
+    "title": "Vision & Principles",
+    "permalink": "/stratum-core/docs/product/vision"
+  }
+}

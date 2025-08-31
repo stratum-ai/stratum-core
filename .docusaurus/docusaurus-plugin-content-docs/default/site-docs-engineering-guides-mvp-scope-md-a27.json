@@ -1,0 +1,24 @@
+{
+  "id": "engineering/guides/mvp-scope",
+  "title": "MVP Scope (60–90 days)",
+  "description": "Problem",
+  "source": "@site/docs/engineering/guides/mvp-scope.md",
+  "sourceDirName": "engineering/guides",
+  "slug": "/engineering/guides/mvp-scope",
+  "permalink": "/stratum-core/docs/engineering/guides/mvp-scope",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/engineering/guides/mvp-scope.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Enterprise Agent Orchestration (Visual Builder)",
+    "permalink": "/stratum-core/docs/enterprise/agent-orchestration"
+  },
+  "next": {
+    "title": "Implementation Plan",
+    "permalink": "/stratum-core/docs/engineering/guides/implementation-plan"
+  }
+}

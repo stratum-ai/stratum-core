@@ -9,34 +9,16 @@ export default [
   },
   {
     path: '/stratum-core/docs',
-    component: ComponentCreator('/stratum-core/docs', '1cf'),
+    component: ComponentCreator('/stratum-core/docs', '8f6'),
     routes: [
       {
         path: '/stratum-core/docs',
-        component: ComponentCreator('/stratum-core/docs', '820'),
+        component: ComponentCreator('/stratum-core/docs', 'fb9'),
         routes: [
           {
             path: '/stratum-core/docs',
-            component: ComponentCreator('/stratum-core/docs', '4bc'),
+            component: ComponentCreator('/stratum-core/docs', 'cdb'),
             routes: [
-              {
-                path: '/stratum-core/docs/api',
-                component: ComponentCreator('/stratum-core/docs/api', '74b'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/stratum-core/docs/architecture',
-                component: ComponentCreator('/stratum-core/docs/architecture', '75a'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/stratum-core/docs/buyer-faq',
-                component: ComponentCreator('/stratum-core/docs/buyer-faq', 'adf'),
-                exact: true,
-                sidebar: "docs"
-              },
               {
                 path: '/stratum-core/docs/engineering/agents/overview',
                 component: ComponentCreator('/stratum-core/docs/engineering/agents/overview', '834'),
@@ -58,6 +40,24 @@ export default [
               {
                 path: '/stratum-core/docs/engineering/auth-oidc',
                 component: ComponentCreator('/stratum-core/docs/engineering/auth-oidc', '2c6'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/stratum-core/docs/engineering/guides/implementation-checklist',
+                component: ComponentCreator('/stratum-core/docs/engineering/guides/implementation-checklist', 'fd9'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/stratum-core/docs/engineering/guides/implementation-plan',
+                component: ComponentCreator('/stratum-core/docs/engineering/guides/implementation-plan', '02e'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/stratum-core/docs/engineering/guides/mvp-scope',
+                component: ComponentCreator('/stratum-core/docs/engineering/guides/mvp-scope', 'e06'),
                 exact: true,
                 sidebar: "docs"
               },
@@ -116,80 +116,80 @@ export default [
                 sidebar: "docs"
               },
               {
-                path: '/stratum-core/docs/execution-policy',
-                component: ComponentCreator('/stratum-core/docs/execution-policy', '0f6'),
+                path: '/stratum-core/docs/product/buyer-faq',
+                component: ComponentCreator('/stratum-core/docs/product/buyer-faq', 'd8a'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/stratum-core/docs/faq',
-                component: ComponentCreator('/stratum-core/docs/faq', '314'),
+                path: '/stratum-core/docs/product/faq',
+                component: ComponentCreator('/stratum-core/docs/product/faq', '6f0'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/stratum-core/docs/getting-started',
-                component: ComponentCreator('/stratum-core/docs/getting-started', '1a9'),
+                path: '/stratum-core/docs/product/getting-started',
+                component: ComponentCreator('/stratum-core/docs/product/getting-started', '01b'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/stratum-core/docs/glossary',
-                component: ComponentCreator('/stratum-core/docs/glossary', 'e54'),
+                path: '/stratum-core/docs/product/glossary',
+                component: ComponentCreator('/stratum-core/docs/product/glossary', 'c02'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/stratum-core/docs/implementation-checklist',
-                component: ComponentCreator('/stratum-core/docs/implementation-checklist', '122'),
+                path: '/stratum-core/docs/product/intro',
+                component: ComponentCreator('/stratum-core/docs/product/intro', '436'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/stratum-core/docs/implementation-plan',
-                component: ComponentCreator('/stratum-core/docs/implementation-plan', '097'),
+                path: '/stratum-core/docs/product/mission-statement',
+                component: ComponentCreator('/stratum-core/docs/product/mission-statement', 'ba2'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/stratum-core/docs/intro',
-                component: ComponentCreator('/stratum-core/docs/intro', '114'),
+                path: '/stratum-core/docs/product/roadmap',
+                component: ComponentCreator('/stratum-core/docs/product/roadmap', 'd90'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/stratum-core/docs/mission-statement',
-                component: ComponentCreator('/stratum-core/docs/mission-statement', '607'),
+                path: '/stratum-core/docs/product/security-overview',
+                component: ComponentCreator('/stratum-core/docs/product/security-overview', '2a6'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/stratum-core/docs/mvp-scope',
-                component: ComponentCreator('/stratum-core/docs/mvp-scope', '7f3'),
+                path: '/stratum-core/docs/product/vision',
+                component: ComponentCreator('/stratum-core/docs/product/vision', 'a05'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/stratum-core/docs/roadmap',
-                component: ComponentCreator('/stratum-core/docs/roadmap', '317'),
+                path: '/stratum-core/docs/reference/api',
+                component: ComponentCreator('/stratum-core/docs/reference/api', '86d'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/stratum-core/docs/security-overview',
-                component: ComponentCreator('/stratum-core/docs/security-overview', 'a51'),
+                path: '/stratum-core/docs/reference/architecture',
+                component: ComponentCreator('/stratum-core/docs/reference/architecture', '5d5'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/stratum-core/docs/tech-stack',
-                component: ComponentCreator('/stratum-core/docs/tech-stack', 'ba9'),
+                path: '/stratum-core/docs/reference/execution-policy',
+                component: ComponentCreator('/stratum-core/docs/reference/execution-policy', '5ae'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/stratum-core/docs/vision',
-                component: ComponentCreator('/stratum-core/docs/vision', 'cb1'),
+                path: '/stratum-core/docs/reference/tech-stack',
+                component: ComponentCreator('/stratum-core/docs/reference/tech-stack', '672'),
                 exact: true,
                 sidebar: "docs"
               }

@@ -6,30 +6,18 @@
     },
     "content": "393be207"
   },
-  "/stratum-core/docs-1cf": {
+  "/stratum-core/docs-8f6": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/stratum-core/docs-820": {
+  "/stratum-core/docs-fb9": {
     "__comp": "a7bd4aaa",
     "__props": "0f9d05e8"
   },
-  "/stratum-core/docs-4bc": {
+  "/stratum-core/docs-cdb": {
     "__comp": "a94703ab"
-  },
-  "/stratum-core/docs/api-74b": {
-    "__comp": "17896441",
-    "content": "5fbc5cf1"
-  },
-  "/stratum-core/docs/architecture-75a": {
-    "__comp": "17896441",
-    "content": "5281b7a2"
-  },
-  "/stratum-core/docs/buyer-faq-adf": {
-    "__comp": "17896441",
-    "content": "c8c24750"
   },
   "/stratum-core/docs/engineering/agents/overview-834": {
     "__comp": "17896441",
@@ -46,6 +34,18 @@
   "/stratum-core/docs/engineering/auth-oidc-2c6": {
     "__comp": "17896441",
     "content": "5f606f05"
+  },
+  "/stratum-core/docs/engineering/guides/implementation-checklist-fd9": {
+    "__comp": "17896441",
+    "content": "2df99060"
+  },
+  "/stratum-core/docs/engineering/guides/implementation-plan-02e": {
+    "__comp": "17896441",
+    "content": "8d1f680b"
+  },
+  "/stratum-core/docs/engineering/guides/mvp-scope-e06": {
+    "__comp": "17896441",
+    "content": "a27a844b"
   },
   "/stratum-core/docs/engineering/local-dev-setup-d6d": {
     "__comp": "17896441",
@@ -83,57 +83,57 @@
     "__comp": "17896441",
     "content": "e4d0392e"
   },
-  "/stratum-core/docs/execution-policy-0f6": {
+  "/stratum-core/docs/product/buyer-faq-d8a": {
     "__comp": "17896441",
-    "content": "32b5892e"
+    "content": "cfd39ec8"
   },
-  "/stratum-core/docs/faq-314": {
+  "/stratum-core/docs/product/faq-6f0": {
     "__comp": "17896441",
-    "content": "0480b142"
+    "content": "697d9d08"
   },
-  "/stratum-core/docs/getting-started-1a9": {
+  "/stratum-core/docs/product/getting-started-01b": {
     "__comp": "17896441",
-    "content": "d589d3a7"
+    "content": "6df423a3"
   },
-  "/stratum-core/docs/glossary-e54": {
+  "/stratum-core/docs/product/glossary-c02": {
     "__comp": "17896441",
-    "content": "e747ec83"
+    "content": "7012ed71"
   },
-  "/stratum-core/docs/implementation-checklist-122": {
+  "/stratum-core/docs/product/intro-436": {
     "__comp": "17896441",
-    "content": "17e7c444"
+    "content": "504717a1"
   },
-  "/stratum-core/docs/implementation-plan-097": {
+  "/stratum-core/docs/product/mission-statement-ba2": {
     "__comp": "17896441",
-    "content": "c6ea5627"
+    "content": "b200f7d2"
   },
-  "/stratum-core/docs/intro-114": {
+  "/stratum-core/docs/product/roadmap-d90": {
     "__comp": "17896441",
-    "content": "0e384e19"
+    "content": "a1118e8c"
   },
-  "/stratum-core/docs/mission-statement-607": {
+  "/stratum-core/docs/product/security-overview-2a6": {
     "__comp": "17896441",
-    "content": "d7f046c5"
+    "content": "1351d48e"
   },
-  "/stratum-core/docs/mvp-scope-7f3": {
+  "/stratum-core/docs/product/vision-a05": {
     "__comp": "17896441",
-    "content": "16b47997"
+    "content": "cb2a019f"
   },
-  "/stratum-core/docs/roadmap-317": {
+  "/stratum-core/docs/reference/api-86d": {
     "__comp": "17896441",
-    "content": "0dffb83e"
+    "content": "b95ea484"
   },
-  "/stratum-core/docs/security-overview-a51": {
+  "/stratum-core/docs/reference/architecture-5d5": {
     "__comp": "17896441",
-    "content": "a910b73e"
+    "content": "33ec3d65"
   },
-  "/stratum-core/docs/tech-stack-ba9": {
+  "/stratum-core/docs/reference/execution-policy-5ae": {
     "__comp": "17896441",
-    "content": "40cca3aa"
+    "content": "342d17e1"
   },
-  "/stratum-core/docs/vision-cb1": {
+  "/stratum-core/docs/reference/tech-stack-672": {
     "__comp": "17896441",
-    "content": "ae4554eb"
+    "content": "5d0d2b33"
   },
   "/stratum-core/-68b": {
     "__comp": "c4f5d8e4",

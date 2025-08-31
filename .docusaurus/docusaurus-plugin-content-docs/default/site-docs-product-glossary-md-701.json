@@ -1,0 +1,24 @@
+{
+  "id": "product/glossary",
+  "title": "Glossary",
+  "description": "Agent-native catalog — Metadata (schemas, profiles, NL descriptions, embeddings) designed for LLM/agent consumption.",
+  "source": "@site/docs/product/glossary.md",
+  "sourceDirName": "product",
+  "slug": "/product/glossary",
+  "permalink": "/stratum-core/docs/product/glossary",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/product/glossary.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Vision & Principles",
+    "permalink": "/stratum-core/docs/product/vision"
+  },
+  "next": {
+    "title": "Roadmap",
+    "permalink": "/stratum-core/docs/product/roadmap"
+  }
+}

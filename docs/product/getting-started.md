@@ -23,14 +23,14 @@ Stratum Core is an **agent-native semantic layer** that makes enterprise data ac
 ### For Product Managers
 1. [Mission Statement](./mission-statement.md) - Why we exist
 2. [Vision & Principles](./vision.md) - Where we're going  
-3. [MVP Scope](./mvp-scope.md) - What we're building first
+3. [MVP Scope](../engineering/guides/mvp-scope.md) - What we're building first
 4. PRD and product design docs are available to maintainers in the private `design/` workspace.
 
 ### For Engineers  
-1. [Implementation Plan](./implementation-plan.md) - 16-week roadmap with checkboxes
-2. [Technology Stack](./tech-stack.md) - All technologies and decisions
-3. [Architecture](./architecture.md) - System design and data flow
-4. [API Documentation](./api.md) - Contract specifications
+1. [Implementation Plan](../engineering/guides/implementation-plan.md) - 16-week roadmap with checkboxes
+2. [Technology Stack](../reference/tech-stack.md) - All technologies and decisions
+3. [Architecture](../reference/architecture.md) - System design and data flow
+4. [API Documentation](../reference/api.md) - Contract specifications
 
 ### For Business
 1. [Roadmap](./roadmap.md) - 4-phase release plan
@@ -41,7 +41,7 @@ Stratum Core is an **agent-native semantic layer** that makes enterprise data ac
 
 ### Immediate (This Week)
 1. ✅ **Documentation complete** - You are here!
-2. 📋 **Set up development environment** - Follow [Implementation Plan Week 1](./implementation-plan.md#week-1-2-project-setup)
+2. 📋 **Set up development environment** - Follow [Implementation Plan Week 1](../engineering/guides/implementation-plan.md#week-1-2-project-setup)
 3. 🏗️ **Create Python project structure** - Poetry + FastAPI skeleton
 
 ### Week 1-2: Foundation
@@ -103,4 +103,4 @@ curl http://localhost:8000/api/v1/describe/users
 
 ---
 
-**Ready to start building?** Head to the [Implementation Plan](./implementation-plan.md) for your detailed 16-week roadmap with checkboxes for every task.
+**Ready to start building?** Head to the [Implementation Plan](../engineering/guides/implementation-plan.md) for your detailed 16-week roadmap with checkboxes for every task.

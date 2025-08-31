@@ -15,7 +15,7 @@
   "sidebar": "docs",
   "previous": {
     "title": "Implementation Checklist",
-    "permalink": "/stratum-core/docs/implementation-checklist"
+    "permalink": "/stratum-core/docs/engineering/guides/implementation-checklist"
   },
   "next": {
     "title": "Trino Catalog Configuration",

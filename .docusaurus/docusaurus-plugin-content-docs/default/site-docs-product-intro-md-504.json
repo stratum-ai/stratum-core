@@ -1,0 +1,20 @@
+{
+  "id": "product/intro",
+  "title": "Stratum Core (Open Source)",
+  "description": "Stratum is the agent-native, cloud-neutral semantic layer for data + AI.",
+  "source": "@site/docs/product/intro.md",
+  "sourceDirName": "product",
+  "slug": "/product/intro",
+  "permalink": "/stratum-core/docs/product/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/product/intro.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "next": {
+    "title": "Getting Started with Stratum Core",
+    "permalink": "/stratum-core/docs/product/getting-started"
+  }
+}

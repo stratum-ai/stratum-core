@@ -1,0 +1,24 @@
+{
+  "id": "product/faq",
+  "title": "FAQ",
+  "description": "What data systems does Stratum support?",
+  "source": "@site/docs/product/faq.md",
+  "sourceDirName": "product",
+  "slug": "/product/faq",
+  "permalink": "/stratum-core/docs/product/faq",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/product/faq.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Security Overview",
+    "permalink": "/stratum-core/docs/product/security-overview"
+  },
+  "next": {
+    "title": "Buyer FAQ",
+    "permalink": "/stratum-core/docs/product/buyer-faq"
+  }
+}
