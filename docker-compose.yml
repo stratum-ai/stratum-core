@@ -1,0 +1,43 @@
+version: '3.9'
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: stratum
+      POSTGRES_PASSWORD: stratum
+      POSTGRES_DB: stratum
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  qdrant:
+    image: qdrant/qdrant:latest
+    ports:
+      - "6333:6333"
+    volumes:
+      - qdrantdata:/qdrant/storage
+
+  trino:
+    image: trinodb/trino:latest
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./trino/etc:/etc/trino
+
+  api:
+    build: .
+    environment:
+      STRATUM_DB_URL: postgresql://stratum:stratum@postgres:5432/stratum
+      QDRANT_URL: http://qdrant:6333
+      TRINO_URL: http://trino:8080
+    ports:
+      - "8000:8000"
+    depends_on:
+      - postgres
+      - qdrant
+      - trino
+
+volumes:
+  pgdata:
+  qdrantdata:
