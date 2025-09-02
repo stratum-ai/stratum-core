@@ -18,8 +18,11 @@ This guide sets up Stratum Core locally with Docker Compose using:
 git clone <repo>
 cd stratum-core
 
+# One-step setup (Ubuntu/WSL): installs Docker and creates Python venv
+make setup
+
 # Launch services
-docker compose up -d  # or: docker-compose up -d
+docker compose up -d
 
 # Verify services
 curl http://localhost:8080/v1/info        # Trino
@@ -34,7 +37,6 @@ curl http://localhost:6333/cluster/status  # Qdrant
 
 ## Compose Template (example)
 ```yaml
-version: '3.9'
 services:
   postgres:
     image: postgres:15
@@ -55,16 +57,20 @@ services:
       - ./trino/etc:/etc/trino
 
   api:
-    build: ./api  # placeholder
+    build: .
     environment:
       STRATUM_DB_URL: postgresql://stratum:stratum@postgres:5432/stratum
       QDRANT_URL: http://qdrant:6333
       TRINO_URL: http://trino:8080
+      STRATUM_API_KEYS: dev=devkey
     ports: ['8000:8000']
     depends_on: [postgres, qdrant, trino]
 ```
 
 ## Next Steps
 - Configure Trino catalogs: see `docs/engineering/trino-catalogs.md`
-- Configure OIDC auth: see `docs/engineering/auth-oidc.md`
-- Run API locally (coming soon)
+- Authenticate to API:
+  ```bash
+  curl -X POST http://localhost:8000/api/v1/index/schema -H 'x-api-key: devkey' -H 'content-type: application/json' -d '{"limit_tables":50}'
+  curl 'http://localhost:8000/api/v1/find?q=orders' -H 'x-api-key: devkey'
+  ```
